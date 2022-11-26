@@ -1,0 +1,105 @@
+.container5 {
+    width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    h3 {
+        padding: 50px;
+    }
+    .control-card {
+        display: flex;
+
+        justify-content: space-around;
+
+        .card {
+            position: relative;
+            p {
+                margin-top: 20px;
+            }
+            .sale {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                border: none;
+                font-size: 10px;
+                padding: 10px 20px;
+                background-color: white;
+                border-radius: 5px;
+            }
+            .star {
+                display: flex;
+                padding: 20px 0px 0px 0px;
+                width: 100px;
+            }
+        }
+    }
+}
+@media (max-width: 1450px) {
+    .container5 {
+        width: 900px;
+
+        h3 {
+            padding: 30px;
+        }
+        .control-card {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+
+            .card {
+                position: relative;
+                width: 180px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 950px) {
+    .container5 {
+        width: 600px;
+
+        h3 {
+            padding: 30px;
+        }
+        .control-card {
+            flex-wrap: wrap;
+
+            .card {
+                position: relative;
+                width: 250px;
+                margin-bottom: 20px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 650px) {
+    .container5 {
+        width: 100%;
+
+        h3 {
+            padding: 30px;
+        }
+        .control-card {
+            flex-wrap: wrap;
+
+            .card {
+                position: relative;
+                width: 300px;
+                margin-bottom: 20px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
